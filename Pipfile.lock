@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2aeb2b1ae98d32e14df662436f9bf267d9302bc1b3fb12c38f4354cef3c45a39"
+            "sha256": "27cbd4f414b2d1f4d4feb1367bd8cf871af37fc6bb49249e4099e80615c240cb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1056,7 +1056,7 @@
                 "sha256:dafa18e95bf2a92f298fe9c582b0e205aca45c55f989937c52c454ce65b93c78",
                 "sha256:fb3b4933e0382ba49305cc6cd3fb18525df7fd96aa434de19ce0878133bf8e4a"
             ],
-            "index": "pypi",
+            "markers": "sys_platform == 'win32'",
             "version": "==301"
         },
         "pywinpty": {
@@ -1067,7 +1067,7 @@
                 "sha256:cc700c9d5a9fcebf677ac93a4943ca9a24db6e2f11a5f0e7e8e226184c5036f7",
                 "sha256:fb975976ad92be44801de95fdf2b0366747767cb0528478553aff85dd63ebb09"
             ],
-            "index": "pypi",
+            "markers": "os_name == 'nt'",
             "version": "==1.1.4"
         },
         "pyzmq": {
@@ -1225,13 +1225,6 @@
             ],
             "index": "pypi",
             "version": "==1.15.0"
-        },
-        "sklearn": {
-            "hashes": [
-                "sha256:e23001573aa194b834122d2b9562459bf5ae494a2d59ca6b8aa22c85a44c0e31"
-            ],
-            "index": "pypi",
-            "version": "==0.0"
         },
         "tensorboard": {
             "hashes": [
